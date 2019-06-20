@@ -1,0 +1,350 @@
+*{
+    margin:0px;
+    padding:5px 0px 0px 0px;;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Padre{
+    display: flex;
+    flex-flow:column nowrap;
+}
+    .header{
+        display: flex;
+        flex-flow: row wrap;
+        background: url(Imagenes/bakery6.jpg);
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
+        padding-bottom: 100px;
+    }
+    .menu{
+        
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-content: flex-end;
+        
+    }
+    .nav{
+        
+        display: flex;
+        margin: 0px 80px 0px 0px;
+        justify-content: space-around;
+        align-content: space-around;
+        align-items: center;
+        height: 100px;
+        
+    
+    }
+        nav a{
+            margin: 0px 25px 0px 25px;
+            color: #fff;
+        }
+    .RedesS{
+        display: flex;
+        
+        color: #fff;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin: 0px 80px 0px 0px;
+        
+    }
+        .RedesS a{
+            margin: 0px 10px 0px 10px;
+        }
+    .presentacion{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+    }
+        .presentacion > h1{
+            color: #fff;
+            margin-bottom: 80px;
+            font-size: 80px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .presentacion p{
+            color: #000;
+            margin-bottom: 50px;
+        }
+        .b1{
+            background: #a2a8d3;
+            padding: 10px 25px 10px 25px;
+            cursor: pointer;
+        }
+    .Secc2{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-content: space-around;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+        .parte1{
+            
+            padding-top: 0px;
+            display: flex;
+            flex-flow: column wrap;
+            align-content: center;
+            align-items: center;
+            width: 50%;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+            
+            .parte1 h3{
+                font-size: 15px;
+                font-family: 'Times New Roman', Times, serif;
+                color: #5e0a0a;
+                text-align: center;
+            }
+            .parte1 h4{
+                text-align: center;
+                margin-top: 50px;
+                font-size: 25px;
+            }
+            .parte1 > p{
+                text-align: center;
+                font-size: 15px;
+            }
+            .parte1 img{
+                width: 600px;
+                height: 150px;
+
+            }
+        .ParteInterna1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            .ParteInterna1 img{
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                margin: 50px;
+            }
+            .ParteInterna1 > p{
+                font-size: 22px;
+            }
+        .parte2{
+            width: 50%;
+            
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+
+    .Secc3{
+        background: url(Imagenes/bakeryFondo.jpg);
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+        padding-bottom: 30px;
+    }
+        .recipe{
+            
+            text-align: center;
+            background: #fff;
+            width: 500px;
+            height: 300px;
+            margin-top: 60px;
+        }
+        .Stime{
+            display: flex;
+            justify-content: flex-end;
+            align-content: flex-end;
+            
+            
+            
+        }
+            .time{
+                background: #fff;
+                z-index: 1;
+                text-align: right;
+                
+
+            }
+                .time > h3{
+                font-size: 20px;
+                font-family: 'Times New Roman', Times, serif;
+                color: #5e0a0a;
+                text-align: center;
+                }
+                .time > p{
+                    color: #000;
+                    text-align: center;
+                }
+                .images {
+                    margin-top: 80px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-content: center;
+                    
+                }
+                    .images img{
+                        border-radius: 50%;
+                        
+                    }
+        .Secc4{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            background: url(Imagenes/bakeryInicio.jpg);
+            margin-bottom: 50px;
+            
+        }
+            .horarios{
+                
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+                padding-bottom: 10px;
+            }
+                .horarios > h1{
+                    color: #fff;
+                    font-size: 30px;
+
+                }
+                .horarios > h3{
+                    font-size: 20px;
+                    color: #5e0a0a;
+                    text-align: center;
+                    margin-bottom: 20px;
+                    }
+                .horarios > h2{
+                    color: #fff;
+                }
+                .horarios > p{
+                    color: #5c7658;
+                    margin: 10px;
+                }
+                .horarios > h4{
+                    color: #6d3939;
+                }
+            .frase{
+                background: #fff;
+                width: 400px;
+                height: 450px;
+                font-family: 'Times New Roman', Times, serif;
+                text-align: center;
+                padding-bottom: 30px;
+                margin-bottom: 20px;
+            }
+                .frase > h1{
+                    color: #5c7658;
+                    margin-bottom: 30px;
+                }
+                .frase >p{
+                    margin: 20px 5px 50px 5px;
+                
+                }
+            .b2{
+                padding: 5px 15px 5px 15px;
+                color: #5c7658;
+                background: transparent;
+                border: 1px solid #000;
+                margin-bottom: 10px;
+                margin-top: 40px;
+                
+            }
+        .Secc5{
+            display: flex;
+            flex-flow: column wrap;
+            font-family: 'Times New Roman', Times, serif;
+        }
+            .Secc5 h1{
+                color: #5c7658;
+                width: 100%;
+                
+                text-align: center;
+            }
+            .Secc5 > h3{
+                font-size: 15px;
+                color: #5e0a0a;
+                text-align: center;
+            }
+            .div5{
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-around;
+                align-content: center;
+                background: #fff;
+                margin-bottom: 30px;
+            }
+                .inter1{
+                    display: flex;
+                    flex-flow: column nowrap;
+                    width: 150px;
+                    justify-content: center;
+                    align-content: center;
+                    align-items: center;
+                    margin-left: 100px;
+                }
+                .ImgText{
+                    display: flex;
+                    flex-direction: column;
+                    /* background: #000; */
+                }
+                    .ImgText img{
+                        display: flex;
+                        background: #fff;
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50%;
+                        margin: 10px;
+                    }
+                    .ImgText h4{
+                        color: #6d3939;
+                        text-align: center;
+                        font-size: 20px;
+                    }
+                    
+                .inter2{
+                    margin-top: 30px;
+                    height: 500px;
+                    width: 550px;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                }
+                    .inter2 img{
+                        width: auto;
+                        height: auto;
+                    }
+        .foo{
+           
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+        }
+        .foot{
+            height: 50px;
+            width: 80%;
+            font-family: 'Times New Roman', Times, serif;
+            display: flex;
+            justify-content: center;
+            align-content: center ;
+            border: 1px solid #000;
+            margin-bottom: 30px;
+            align-items: center;
+            
+
+        }
+
+            
+
+
+            
+        
